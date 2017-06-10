@@ -1,5 +1,7 @@
 package com.myorh.popularmovies.Utils;
 
+import com.myorh.popularmovies.UncommitedFile;
+
 /**
  * Created by Myorh on 6/7/2017.
  */
@@ -7,7 +9,7 @@ package com.myorh.popularmovies.Utils;
 public class Constants {
     public static final String BASE_URL ="http://api.themoviedb.org/3/movie/";
     public static final String IMAGE_DETAIL_BASE_URL ="http://image.tmdb.org/t/p/w342//";
-    public static final String API_KEY = "";
+    public static final String API_KEY = UncommitedFile.API_KEY;
 
 
     //Movie specifics;
